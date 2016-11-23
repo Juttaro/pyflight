@@ -1,0 +1,45 @@
+# Final Project
+#This Project is designed to simulate a High Level Idea of a website Idea have. 
+#Because the project is too long for this Final Project Some of the information
+#that would be gotten from an api will be simulated as best as possible to create a some
+#what realistic simulation 
+
+# The Project is to take information from Google flights and AirBnb to create a vacation plan
+# the user will enter a desired budget, a time span(flexible and none Flexible) 
+# they can travel within, as well the number of days they would like to travel for. 
+# for now we assume no collisons of booking between two different customers looking at the 
+# same flight,airbnb or both.  
+
+
+import urllib2
+import json
+
+
+url = "https://www.googleapis.com/qpxExpress/v1/trips/search?key=XXX"
+code = {
+  "request": {
+    "passengers": {
+      "kind": "qpxexpress#passengerCounts",
+      "adultCount": 1,
+    },
+    "slice": [
+      {
+        "kind": "qpxexpress#sliceInput",
+        "origin": "DCA",
+        "destination": "NYC",
+        "date": "2015-11-20",
+      }
+    ],
+    "refundable": "false",
+    "solutions": 5
+  }
+}
+
+jsonreq = json.dumps(code, encoding = 'utf-8')
+req = urllib2.Request(url, jsonreq, {'Content-Type': 'application/json'})
+flight = urllib2.urlopen(req)
+response = flight.read()
+flight.close()
+print(response)
+
+

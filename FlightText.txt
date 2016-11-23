@@ -1,0 +1,235 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "AWPfXz5XC1h5EHBRV0NRS7",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "BOS",
+     "city": "BOS",
+     "name": "Boston Logan International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LAX",
+     "city": "LAX",
+     "name": "Los Angeles International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BOS",
+     "name": "Boston"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LAX",
+     "name": "Los Angeles"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ZP",
+     "name": "US Flight Segment Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_001",
+     "name": "US Transportation Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "B6",
+     "name": "Jetblue Airways Corporation"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD436.21",
+    "id": "1v4NhPDfah4OgMmteft1fE001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 397,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 397,
+        "flight": {
+         "carrier": "B6",
+         "number": "287"
+        },
+        "id": "GGjJRys8rbeIeADx",
+        "cabin": "COACH",
+        "bookingCode": "W",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LiIuQwOtsKwaBzEf",
+          "aircraft": "320",
+          "arrivalTime": "2015-12-28T10:37-08:00",
+          "departureTime": "2015-12-28T07:00-05:00",
+          "origin": "BOS",
+          "destination": "LAX",
+          "originTerminal": "C",
+          "destinationTerminal": "3",
+          "duration": 397,
+          "onTimePerformance": 90,
+          "mileage": 2604,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 319,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 319,
+        "flight": {
+         "carrier": "B6",
+         "number": "288"
+        },
+        "id": "GUE0Esh7gMJ7QDo8",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L2S8wqQ8x1cJ001x",
+          "aircraft": "320",
+          "arrivalTime": "2016-01-08T15:48-05:00",
+          "departureTime": "2016-01-08T07:29-08:00",
+          "origin": "LAX",
+          "destination": "BOS",
+          "originTerminal": "3",
+          "destinationTerminal": "C",
+          "duration": 319,
+          "onTimePerformance": 90,
+          "mileage": 2604,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AcHYxwLCd62/wjwlf/Zt0tJ07Oi3DBuMV7a9d6OTXPTZ8Mp/tJ23PywGy+JlkVC+brLLROV5CY7dupk22mb8atfHIS4WyLFsr4GaRsIsMjuWimB2NFq7kMEPPxCYyO5Qm+4A6B2HicmQmoE",
+        "carrier": "B6",
+        "origin": "BOS",
+        "destination": "LAX",
+        "basisCode": "WH7AUEN5",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ATg5wtIk52SqHgdJd88DBL2VY6GCJ62InbyYC4jvF53DykKbvyOwYbqc3gYMsmrs+AmHkxdBWScpgncrkhqIPJe3b+SPCMNIsXlYba1y0dVmewNPxP6ZyCxXhNRUr7ey8hp9hmW9KEQe8W/",
+        "carrier": "B6",
+        "origin": "LAX",
+        "destination": "BOS",
+        "basisCode": "PI2QBEN5",
+        "private": true
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ATg5wtIk52SqHgdJd88DBL2VY6GCJ62InbyYC4jvF53DykKbvyOwYbqc3gYMsmrs+AmHkxdBWScpgncrkhqIPJe3b+SPCMNIsXlYba1y0dVmewNPxP6ZyCxXhNRUr7ey8hp9hmW9KEQe8W/",
+        "segmentId": "GUE0Esh7gMJ7QDo8"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AcHYxwLCd62/wjwlf/Zt0tJ07Oi3DBuMV7a9d6OTXPTZ8Mp/tJ23PywGy+JlkVC+brLLROV5CY7dupk22mb8atfHIS4WyLFsr4GaRsIsMjuWimB2NFq7kMEPPxCYyO5Qm+4A6B2HicmQmoE",
+        "segmentId": "GGjJRys8rbeIeADx"
+       }
+      ],
+      "baseFareTotal": "USD379.54",
+      "saleFareTotal": "USD379.54",
+      "saleTaxTotal": "USD56.67",
+      "saleTotal": "USD436.21",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_001",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD28.47"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD9.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD8.00"
+       }
+      ],
+      "fareCalculation": "BOS B6 LAX 264.19WH7AUEN5 B6 BOS 115.35PI2QBEN5 USD 379.54 END ZP BOS LAX XT 28.47US 8.00ZP 11.20AY 9.00XF BOS4.50 LAX4.50",
+      "latestTicketingTime": "2015-12-18T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
